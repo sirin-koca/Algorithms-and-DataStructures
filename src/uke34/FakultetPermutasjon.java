@@ -1,4 +1,4 @@
-/*Utrykket n! betyr n fakultet og er gitt ved n! = n · (n-1) ·  ·  · 2 · 1 .
+package uke34;/*Utrykket n! betyr n fakultet og er gitt ved n! = n · (n-1) ·  ·  · 2 · 1 .
 Lag en metode long fak(int n) som regner ut n! Hvor mange multiplikasjoner utføres i metoden? */
 
 public class FakultetPermutasjon {

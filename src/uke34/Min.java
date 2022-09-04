@@ -1,4 +1,4 @@
-/* Lag en min-metode på samme måte som maks-metoden i Programkode 1.1.2, dvs. en metode som finner
+package uke34;/* Lag en min-metode på samme måte som maks-metoden i Programkode 1.1.2, dvs. en metode som finner
 (og returnerer) posisjonen til den minste verdien i en tabell.
 */
 

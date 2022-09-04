@@ -1,3 +1,5 @@
+package uke34;
+
 public class FindMaxNr {
     public static void main(String[] args) {
 

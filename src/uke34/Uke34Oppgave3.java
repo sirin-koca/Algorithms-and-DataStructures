@@ -1,4 +1,4 @@
-/*    Oppgave 3
+package uke34;/*    Oppgave 3
 
     Det gjøres ved å endre sammenligningen if (a[i] > a[m]) til if (a[i] >= a[m]).
 

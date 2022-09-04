@@ -1,4 +1,4 @@
-/*Hvis den største verdien forekommer flere ganger, vil maks-metoden returnere posisjonen
+package uke34;/*Hvis den største verdien forekommer flere ganger, vil maks-metoden returnere posisjonen
 til den første av dem. Hva må endres for at den skal returnere posisjonen til den siste?*/
 
 public class Maks {
