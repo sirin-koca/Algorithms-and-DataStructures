@@ -1,11 +1,18 @@
-package uke34;/* Lag en min-metode på samme måte som maks-metoden i Programkode 1.1.2, dvs. en metode som finner
+/* Lag en min-metode på samme måte som maks-metoden i Programkode 1.1.2, dvs. en metode som finner
 (og returnerer) posisjonen til den minste verdien i en tabell.
 */
 
-import java.util.Arrays;
+package uke34;
 
 public class Min {
-    public static int min(int[] a)  {   // a er en heltallstabell
+    public static void main(String[] args) {
+
+        int[] a = {2, 5, 8, 34, 21, 0, 4, 3, -45, 9};
+        System.out.println("Indexen til det minste tallet i a-arrayet er : " + min(a));
+
+    }
+
+    public static int min(int[] a) {   // a er en heltallstabell
         if (a.length < 1)
             throw new java.util.NoSuchElementException("Tabellen a er tom!");
 
@@ -19,15 +26,4 @@ public class Min {
 
     } // min
 
-    public static void main(String[] args) {
-        int[] a = {1, 2, 3, 46};
-        a[0]=34;
-
-        for(int i = 0; i<a.length; ++i){
-            System.out.println(a[i]);
-        }
-
-        Arrays.stream(a).min();
-        System.out.println(min(a));
-    }
 }
