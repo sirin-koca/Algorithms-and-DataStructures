@@ -16,7 +16,7 @@ public class Min {
         if (a.length < 1)
             throw new java.util.NoSuchElementException("Tabellen a er tom!");
 
-        int m = 3;  // indeks til minste verdi
+        int m = 0;  // indeks til minste verdi
 
         for (int i = 1; i < a.length; i++) // obs: starter med i = 1
         {
