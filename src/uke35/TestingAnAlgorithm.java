@@ -9,7 +9,7 @@ import static uke35.MaxVerdi.maks;
 public class TestingAnAlgorithm {
 
     public static void main(String[] args) {
-        int[] a = {8, 3, 5, 7, 9, 6, 10, 2, 1, 45};  // maksverdien 10 er i posisjon 6
+        int[] a = {8, 3, 5, 7, 9, 6, 10, 2, 1, 45};  // maksverdien 10 er i posisjon 6. Neste runde: Tester 45 som størst
         System.out.println(maks(a));
     }
 
