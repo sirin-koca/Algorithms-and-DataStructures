@@ -1,7 +1,11 @@
-package uke34;/*Hvis den største verdien forekommer flere ganger, vil maks-metoden returnere posisjonen
-til den første av dem. Hva må endres for at den skal returnere posisjonen til den siste?*/
 
-public class Maks {
+/// /// /// maks-metode versjon 1 /// /// ///
+
+/*Hvis den største verdien forekommer flere ganger, vil maks-metoden returnere posisjonen
+til den første av dem. Hva må endres for at den skal returnere posisjonen til den siste? */
+
+package uke34;
+public class MaksV1 {
     public static int maks(int[] a)  {   // a er en heltallstabell
         if (a.length < 1)
             throw new java.util.NoSuchElementException("Tabellen a er tom!");
