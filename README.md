@@ -10,3 +10,5 @@
 * Kapittel 9: Balanserte binære trær
 * Kapittel 10: Anvendelser av trær
 * Kapittel 11: Grafer
+
+[Pensum](https://www.cs.hioa.no/~ulfu/appolonius/index.html)
