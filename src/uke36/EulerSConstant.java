@@ -1,6 +1,6 @@
 /* Lag metoden public static double euler(int n). Den skal returnere differansen mellom Hn og log(n).
-I Java gir Math.log(n) oss den naturlige logaritmen til n. Hvor stor må n være for at euler(n)
-skal returnere et tall som starter med 0,577 som de tre første desimalene? */
+I Java gir Math.log(n) oss den naturlige logaritmen til n.
+Hvor stor må n være for at euler(n) skal returnere et tall som starter med 0,577 som de tre første desimalene? */
 
 // Euler's constant = 0.577
 // Euler's number = 2.718
