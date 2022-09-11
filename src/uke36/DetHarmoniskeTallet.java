@@ -7,7 +7,7 @@ package uke36;
 public class DetHarmoniskeTallet {
     public static void main(String[] args) {
 
-        System.out.println(harmonisk(3));
+        System.out.println(harmonisk(5));
     }
     public static double harmonisk(int n)
     {
