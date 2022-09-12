@@ -2,7 +2,7 @@ package uke36;
 
 public class Inversjon {
     public static void main(String[] args) {
-        int[] a = {1, 2, 6, 3, 0};
+        int[] a = {9, 1, 2, 6, 3, 7, 0};
         System.out.println(inversjoner(a));
     }
     public static int inversjoner(int[] a)
