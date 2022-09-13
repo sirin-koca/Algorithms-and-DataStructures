@@ -11,8 +11,7 @@ public class Sortering {
     public static boolean erSortert(int[] a)  // legges i samleklassen Tabell
     {
         for (int i = 1; i < a.length; i++)      // starter med i = 1
-            if (a[i-1] > a[i]) return false;      // en inversjon
-
+            if (a[i-1] > a[i]) return false;    // en inversjon
         return true;
     }
 }
