@@ -1,4 +1,4 @@
-# DATS2300-Algorithms-DataStructures
+# DATS2300-Algorithms-and-DataStructures
 ### FAGETS EMNER:
 * Kapittel 1: Grunnleggende begreper og teknikker
 * Kapittel 2: Plangeometriske algoritmer
