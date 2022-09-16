@@ -13,7 +13,9 @@
 
 ---
 
-## Algoritmeanalyse
+## Analyzing Algorithms
+
+Algorithm analysis is an important part of computational complexity theory, which provides theoretical estimation for the required resources of an algorithm to solve a specific computational problem. Most algorithms are designed to work with inputs of arbitrary length. Analysis of algorithms is the determination of the amount of time and space resources required to execute it.
 
 **Arbeidsmengde**: I mange algoritmer er det mulig å «telle opp» antallet ganger den dominerende operasjonen
 utføres. Dette antallet utgjør algoritmens arbeidsmengde.
