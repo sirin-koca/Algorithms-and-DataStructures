@@ -1,5 +1,4 @@
-public class Program
-{
+public class BubbleSort{
 	static void bubbleSort(int[] arr) {
 		boolean swapped = true;
 		for(int i=0; i<arr.length-1; i++) {
