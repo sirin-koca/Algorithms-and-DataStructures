@@ -1,4 +1,4 @@
-package Oppgaver;
+package oppgaver;
 
 import java.util.NoSuchElementException;
 
