@@ -1,3 +1,5 @@
+package uke35;
+
 public class FindIndexForMinsteTall {
 
     public static void main(String[] args) {

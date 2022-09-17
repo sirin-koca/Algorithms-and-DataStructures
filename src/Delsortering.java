@@ -5,7 +5,10 @@ public class Delsortering {
     public static void main(String[] args) {
         int[] a = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20};
 
+        System.out.println("Dette er tabellen vår: \n" + Arrays.toString(a));
+
         delsortering(a);
+        System.out.println("\nNå skal vi sortere tabellen slik at alle oddetall samles på venstre og alle partall samles på høyre siden:");
         System.out.println(Arrays.toString(a)); // Sorterer tabellen slik at alle oddetall samles på venstre og alle partall samles på høyre siden av tabellen.
     }
 

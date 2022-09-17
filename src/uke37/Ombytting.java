@@ -1,3 +1,5 @@
+package uke37;
+
 import java.util.NoSuchElementException;
 
 public class Ombytting {
