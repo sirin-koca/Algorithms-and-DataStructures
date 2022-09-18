@@ -1,4 +1,9 @@
 # DATS2300-Algorithms-and-DataStructures
+
+<h4>"An algorithm is a finite sequence of precise instructions for performing a computation or for solving a problem."</h4>
+
+---
+
 ### FAGETS EMNER:
 * Kapittel 1: Grunnleggende begreper og teknikker
 * Kapittel 2: Plangeometriske algoritmer
