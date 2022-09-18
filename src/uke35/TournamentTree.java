@@ -1,6 +1,7 @@
 package uke35;
 
 import java.util.Arrays;
+// Binary tree is also called Tournament tree
 
 public class TournamentTree {
     public static void main(String[] args) {
