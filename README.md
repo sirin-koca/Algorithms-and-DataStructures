@@ -45,6 +45,8 @@ Big O Notation is a way to measure an algorithm’s efficiency. It measures the 
 
 There are two parts to measuring efficiency —  **time complexity** and **space complexity**. Time complexity is a measure of how long the function takes to run in terms of its computational steps. Space complexity has to do with the amount of memory used by the function.
 
+[towardsdatascience.com](https://towardsdatascience.com/introduction-to-big-o-notation-820d2e25d3fd)
+
 ---
 
 ## Time Complexity
