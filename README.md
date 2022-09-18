@@ -1,4 +1,9 @@
 # DATS2300-Algorithms-and-DataStructures
+
+<h4>"An algorithm is a finite sequence of precise instructions for performing a computation or for solving a problem."</h4>
+
+---
+
 ### FAGETS EMNER:
 * Kapittel 1: Grunnleggende begreper og teknikker
 * Kapittel 2: Plangeometriske algoritmer
@@ -34,6 +39,18 @@ Tilsammen 1 + 2 + · · · + n = ½ n ( n + 1) sammenligninger. Gjennomsnittet f
 
 Det er arbeidsmengden i det mest ugunstige tilfellet og den gjennomsnittlige arbeidsmengden som har mest
 interesse.
+
+---
+
+## Big O Notation 
+
+**How well does my algorithm scale?**
+
+Big O Notation is a way to measure an algorithm’s efficiency. It measures the time it takes to run your function as the input grows. Or in other words, it tells us how well does the function scale.
+
+There are two parts to measuring efficiency —  **time complexity** and **space complexity**. Time complexity is a measure of how long the function takes to run in terms of its computational steps. Space complexity has to do with the amount of memory used by the function.
+
+[towardsdatascience.com](https://towardsdatascience.com/introduction-to-big-o-notation-820d2e25d3fd)
 
 ---
 
