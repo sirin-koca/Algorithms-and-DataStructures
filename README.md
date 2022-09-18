@@ -37,6 +37,16 @@ interesse.
 
 ---
 
+## Big O Notation 
+
+**How well does my algorithm scale?**
+
+Big O Notation is a way to measure an algorithm’s efficiency. It measures the time it takes to run your function as the input grows. Or in other words, it tells us how well does the function scale.
+
+There are two parts to measuring efficiency —  **time complexity** and **space complexity**. Time complexity is a measure of how long the function takes to run in terms of its computational steps. Space complexity has to do with the amount of memory used by the function.
+
+---
+
 ## Time Complexity
 - **O(log n) - Logarithmic time complexity** 
 O(log n) means time goes up linearly while the n goes up exponentially. So if it takes 1 second to compute 10 elements, it will take 2 seconds to compute 100
