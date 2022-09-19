@@ -4,10 +4,12 @@ import java.util.*;
 
 public class Program {
 
+    // DRIVER - main metode
     public static void main(String[] args) {  // hovedprogram
         int n = 100_000;  // tabellstørrelse
         System.out.println(antallMaks(randPerm(n)));
     }
+
 
     // 1. Metoden bytt fra Programkode 1.1.8 d) skal inn her
     public static void bytt(int[] a, int i, int j) {
@@ -37,7 +39,7 @@ public class Program {
         int antall = 0;            // antall tall
         int maksverdi = a[0];
 
-        for (int i = 1; i < a.length; i++)  {  // går gjennom tabellen a
+        for (int i = 1; i < a.length; i++) {  // går gjennom tabellen a
             if (a[i] > maksverdi) {   // a[i] er større enn største foran
                 antall++;              // har funnet et nytt tall
                 maksverdi = a[i];      // oppdaterer maksverdi

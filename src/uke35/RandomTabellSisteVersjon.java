@@ -5,14 +5,15 @@ import java.util.Random;
 
 public class RandomTabellSisteVersjon {
 
-    // int[] a = {4, 2, 6, 1, 78, 32, 22, 90, 9, 10};
+    public static void main(String[] args) {
 
-       public static void main(String[] args) {
-        System.out.println(randPerm(5));
+        System.out.println(Arrays.toString(randPerm(3))); // vi kaller metoden randPerm() som genererer en tilfeldig tabell med n-lengde
     }
-    public static void bytt(int[] a, int i, int j)
-    {
-        int temp = a[i]; a[i] = a[j]; a[j] = temp;
+
+    public static void bytt(int[] a, int i, int j) {
+        int temp = a[i];
+        a[i] = a[j];
+        a[j] = temp;
     }
 
     public static int[] randPerm(int n)  // en effektiv versjon
@@ -24,8 +25,8 @@ public class RandomTabellSisteVersjon {
 
         for (int k = n - 1; k > 0; k--)  // løkke som går n - 1 ganger
         {
-            int i = r.nextInt(k+1);        // en tilfeldig tall fra 0 til k
-            bytt(a,k,i);                   // bytter om
+            int i = r.nextInt(k + 1);        // en tilfeldig tall fra 0 til k
+            bytt(a, k, i);                   // bytter om
         }
 
         return a;                        // permutasjonen returneres
