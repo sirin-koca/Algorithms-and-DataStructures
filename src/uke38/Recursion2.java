@@ -29,6 +29,9 @@ public class Recursion2 {
 
         }
 
+        System.out.println(binarySearch(x, 5, 2, 7));
+        System.out.println(binarySearch(x, 7, 5, 8));
+
     }
 
     public static int factorial(int n) {
@@ -55,7 +58,7 @@ public class Recursion2 {
     public static int binarySearch(int[] x, int verdi, int v, int h) {
         if (v == h) {
             // sjekk om x[v] == verdi
-            return (verdi == x[v]) ? v : -1;
+            return (verdi == x[v]) ? v : -1; // Hva kan vi skrive her på en bedre return verdi ?
         }
 
         int m = (v + h) / 2; // Finner midten (heltalssdivisjon)
