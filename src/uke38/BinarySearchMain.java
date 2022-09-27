@@ -1,3 +1,5 @@
+package uke38;
+
 class BinarySearchMain
 {
     // Function to determine if a `target` exists in the sorted array `nums`

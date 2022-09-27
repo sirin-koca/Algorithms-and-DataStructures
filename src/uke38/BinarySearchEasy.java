@@ -1,3 +1,4 @@
+package uke38;
 
 public class BinarySearchEasy {
 

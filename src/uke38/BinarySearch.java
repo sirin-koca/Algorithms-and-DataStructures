@@ -1,3 +1,5 @@
+package uke38;
+
 public class BinarySearch {
     public static void main(String[] args) {
         int values[] = {1, 2, 4, 8, 17, 19, 22};

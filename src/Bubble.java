@@ -6,24 +6,21 @@ public class Bubble {
 
         // for (int i = 0; i < a.length; i++) { }
         // k = a[i]
-
         // for(int k : a){ System.out.println(k);}
-
     }
 
-    public static void bubble(int[] a){
+    public static void bubble(int[] a) {
         int begin = 0;
-        int end = a.length-1;
+        int end = a.length - 1;
 
-        for (int i = begin; i < end ; i++) {
-            if(a[i] > a[i+1]){
+        for (int i = begin; i < end; i++) {
+            if (a[i] > a[i + 1]) {
 
                 // BYTT!
                 int temp = a[i]; // vi må bruke en hjelpevariabel "temp"
-                a[i] = a[i+1];
-                a[i+1] = temp;
-            }
-            else{
+                a[i] = a[i + 1];
+                a[i + 1] = temp;
+            } else {
                 // Gjør ingenting - fordi da er ingen inverjson
             }
 

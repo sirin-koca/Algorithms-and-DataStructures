@@ -1,5 +1,4 @@
 import java.util.Arrays;
-
 public class BinaryTreeNode {
 
     public static class Node {
@@ -37,8 +36,6 @@ public class BinaryTreeNode {
         for (int i = 1; i < a.length; i++) {
             System.out.print(", " + i);
         }
-
-
 
     }
 }

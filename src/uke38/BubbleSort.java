@@ -1,3 +1,5 @@
+package uke38;
+
 public class BubbleSort{
 	static void bubbleSort(int[] arr) {
 		boolean swapped = true;
