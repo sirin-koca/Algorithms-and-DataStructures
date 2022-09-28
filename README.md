@@ -1,44 +1,36 @@
 # DATS2300-Algorithms-and-DataStructures
 
-<h4>"An algorithm is a finite sequence of precise instructions for performing a computation or for solving a problem."</h4>
+<h4>"An algorithm is a finite sequence of precise instructions to solve a specific computational problem."</h4>
 
 ---
-
-### FAGETS EMNER:
-* Kapittel 1: Grunnleggende begreper og teknikker
-* Kapittel 2: Plangeometriske algoritmer
-* Kapittel 3: Lineære datastrukturer
-* Kapittel 4: Stakker og køer
-* Kapittel 5: Binære trær
-* Kapittel 6: Hashing og hashingteknikker
-* Kapittel 7: Komprimering
-* Kapittel 9: Balanserte binære trær
-* Kapittel 10: Anvendelser av trær
-* Kapittel 11: Grafer
-
+* Chapter 1: Basic Concepts and Techniques
+* Chapter 2: Plane Geometry Algorithms
+* Chapter 3: Linear Data-structures
+* Chapter 4: Stacks and Queues
+* Chapter 5: Binary Trees
+* Chapter 6: Hashing and Hashing Techniques
+* Chapter 7: Data Compression
+* Chapter 9: Balanced Binary Trees
+* Chapter 10: Applications of Trees
+* Chapter 11: Graphs
 ---
+
+## Qualities of a Good Algorithm
+* Input and output should be defined precisely.
+* Each step in the algorithm should be clear and unambiguous.
+* Algorithms should be most effective among many different ways to solve a problem.
+* An algorithm shouldn't include computer code. Instead, the algorithm should be written in such a way that it can be used in different programming languages.
+
 
 ## Analyzing Algorithms
 
-Algorithm analysis is an important part of computational complexity theory, which provides theoretical estimation for the required resources of an algorithm to solve a specific computational problem. Most algorithms are designed to work with inputs of arbitrary length. Analysis of algorithms is the determination of the amount of time and space resources required to execute it.
+Algorithm analysis is an important part of computational complexity theory. It is the process of finding the computational complexity of algorithms; the amount of time, storage, or other resources needed to execute them. 
 
-**Arbeidsmengde**: I mange algoritmer er det mulig å «telle opp» antallet ganger den dominerende operasjonen
-utføres. Dette antallet utgjør algoritmens arbeidsmengde.
+**Arbeidsmengde**: I mange algoritmer er det mulig å «telle opp» antallet ganger den dominerende operasjonen utføres. Dette antallet utgjør algoritmens arbeidsmengde.
 
-**Algoritmeorden**: Anta at vi har en algoritme som løser en oppgave av «størrelse» n og at arbeidsmengden er gitt
-som en funksjon av n. Hvis g ( n ) er funksjonens dominerende ledd, sier vi at algoritmen er av orden g ( n ).
-Hvis arbeidsmengden til en algoritme er gitt ved ƒ( n ) = 2 n² + 3 n + log2 n − 1, så er algoritmen av orden n² eller
-av kvadratisk orden.
+**Algoritmeorden**: Anta at vi har en algoritme som løser en oppgave av «størrelse» n og at arbeidsmengden er gitt som en funksjon av n. Hvis g ( n ) er funksjonens dominerende ledd, sier vi at algoritmen er av orden g ( n ). Hvis arbeidsmengden til en algoritme er gitt ved ƒ( n ) = 2 n² + 3 n + log2 n − 1, så er algoritmen av orden n² eller av kvadratisk orden.
 
-**Gjennomsnittelig arbeidsmengde**: For å finne gjennomsnittlig arbeidsmengde er det nødvendig å gjøre noen
-forutsetninger. Vi antar for det første at alle verdiene i a er forskjellige, så at alle verdiene blir søkt etter med samme
-sannsynlighet og til slutt at a inneholder verdien det søkes etter. Ligger verdi først blir det 1 sammenligning, 2
-sammenligninger hvis den ligger nest først, osv. Til slutt hvis den ligger bakerst blir det n sammenligninger.
-Tilsammen 1 + 2 + · · · + n = ½ n ( n + 1) sammenligninger. Gjennomsnittet får vi ved å dele på n. Med andre ord
-½ (n + 1) sammenligninger i gjennomsnitt med hensyn på de gitte forutsetningene.
-
-Det er arbeidsmengden i det mest ugunstige tilfellet og den gjennomsnittlige arbeidsmengden som har mest
-interesse.
+**Gjennomsnittelig arbeidsmengde**: For å finne gjennomsnittlig arbeidsmengde er det nødvendig å gjøre noen forutsetninger. Vi antar for det første at alle verdiene i a er forskjellige, så at alle verdiene blir søkt etter med samme sannsynlighet og til slutt at a inneholder verdien det søkes etter. Ligger verdi først blir det 1 sammenligning, 2 sammenligninger hvis den ligger nest først, osv. Til slutt hvis den ligger bakerst blir det n sammenligninger. Tilsammen 1 + 2 + · · · + n = ½ n ( n + 1) sammenligninger. Gjennomsnittet får vi ved å dele på n. Med andre ord ½ (n + 1) sammenligninger i gjennomsnitt med hensyn på de gitte forutsetningene.
 
 ---
 
