@@ -2,10 +2,15 @@ public class TernaryIf {
 
     public static void main(String[] args) {
 
-        int a = 5;
-        int b = myTernaryIfTest(a);
+        int a = 0;
+        int b = 5;
+        int c = 10;
+        int d = 15;
 
-        System.out.println(b);
+        System.out.println(myTernaryIfTest(a));
+        System.out.println(myTernaryIfTest(b));
+        System.out.println(myTernaryIfTest(c));
+        System.out.println(myTernaryIfTest(d));
     }
 
     public static int myTernaryIfTest(int value) {
