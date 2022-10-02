@@ -1,4 +1,4 @@
-# DATS2300-Algorithms-and-DataStructures
+# DATS2300-Algorithms-and-DataStructures 
 
 <h4>"An algorithm is a finite sequence of precise instructions to solve a specific computational problem."</h4>
 
