@@ -7,7 +7,7 @@ public class ArrayListExample {
         // The ArrayList class is a resizable array, which can be found in the java.util package.
 
         // String
-        ArrayList<String> cars = new ArrayList<String>();
+        ArrayList<String> cars = new ArrayList<>();
         cars.add("Volvo");
         cars.add("BMW");
         cars.add("Ford");
