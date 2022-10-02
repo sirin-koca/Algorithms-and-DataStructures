@@ -37,6 +37,13 @@ public class Arrays {
             System.out.print(number + ", ");
         }
 
+        /** The enhanced for loop, or "for each loop"
+         * Syntax:
+         for(data_type variableName : myArray){
+         //body of the loop
+         }
+         */
+
     }
 }
 
