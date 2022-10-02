@@ -12,16 +12,29 @@ public class Arrays {
         a[3]=4;
         a[4]=5;
 
-        //traversing array
-        for(int i=0; i<a.length; i++) //length is the property of array
-            System.out.println(a[i]);
+        System.out.print("ASC order: ");
+        //traversing array from left to right (DESC order)
+        for(int i=0; i < a.length; i++) //length is the property of array
+            System.out.print(a[i] + ", ");
 
-        // we can also create an array like this:
-        int[] numbers = {3, 9, 5, -5, 0, 1, 9, 123};
+        System.out.println(); // empty line for break
 
+        System.out.print("DESC order: ");
+        //traversing array from right to left (DESC order)
+        int n = a.length;
+        for (int i = n-1 ; i >= 0 ; i--) {
+            System.out.print(a[i] + ", ");
+        }
+
+        System.out.println(); // empty line for break
+
+        // we can also create an array like this in one line:
+        int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+
+        System.out.print("This is my number-array: ");
         // for each loop
         for (int number: numbers) {
-            System.out.println(number);
+            System.out.print(number + ", ");
         }
 
     }
