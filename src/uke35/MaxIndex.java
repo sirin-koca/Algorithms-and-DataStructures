@@ -1,11 +1,11 @@
 package uke35;
 
-public class MaxVerdi {
+public class MaxIndex {
     public static void main(String[] args) {
         int[] a = {2, 4, 7, 1, 89, 67, 5, 133, 0};
 
-        int maksverdi = maks(a);
-        System.out.println("Indeksen til den største verdien i tabellen er: [" + maksverdi + "]");
+        int index = maks(a);
+        System.out.println("Indeksen til den største verdien i tabellen er: [" + index + "]");
     }
 
 

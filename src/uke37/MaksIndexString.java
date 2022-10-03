@@ -1,7 +1,7 @@
 package uke37;
 import java.util.Arrays;
 
-public class MaksVerdiString {
+public class MaksIndexString {
     public static void main(String[] args) {
         String[] a = {"Sirin", "Maya", "Teo", "Leo", "Elisabeth", "Jack", "Nala", "Aida"};
 

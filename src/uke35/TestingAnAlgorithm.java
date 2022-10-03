@@ -4,7 +4,7 @@ I oppgavene vil du bli bedt om å utvide testmetoden.
 
 package uke35;
 
-import static uke35.MaxVerdi.maks;
+import static uke35.MaxIndex.maks;
 
 public class TestingAnAlgorithm {
 

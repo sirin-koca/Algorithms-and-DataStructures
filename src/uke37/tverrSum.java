@@ -7,8 +7,7 @@ public class tverrSum {
 
         System.out.println(tverrsum(9000));
     }
-    public static int tverrsum(int n)
-    {
+    public static int tverrsum(int n){
         System.out.println("Tverrsum(" + n + ") starter!");
         int sum = (n < 10) ? n : tverrsum(n / 10) + (n % 10);
         System.out.println("Tverrsum(" + n + ") er ferdig!");

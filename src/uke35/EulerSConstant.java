@@ -5,7 +5,7 @@ Hvor stor må n være for at euler(n) skal returnere et tall som starter med 0,5
 // Euler's constant = 0.577
 // Euler's number = 2.718
 
-package uke36;
+package uke35;
 
 public class EulerSConstant {
 

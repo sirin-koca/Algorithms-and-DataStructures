@@ -2,7 +2,7 @@ package uke37;
 
 import java.util.Arrays;
 
-public class MaksVerdiDesimalTall {
+public class MaksIndexDouble {
     public static void main(String[] args) {
         double[] a = {0.2, 1.3, 1.9, 2.8, 3.2, 7.1};
         int maks = maks(a);

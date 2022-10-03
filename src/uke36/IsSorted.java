@@ -1,6 +1,6 @@
 package uke36;
 
-public class Sortering {
+public class IsSorted {
     public static void main(String[] args) {
         int[] a = {2, 1, 4, 3, 7, 5, 9, 0};
         int[] b = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};

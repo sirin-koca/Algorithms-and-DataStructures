@@ -2,7 +2,7 @@
 Metoden skal ved hjelp av en løkke regne ut (og returnere)
 det n-te harmoniske tallet.*/
 
-package uke36;
+package uke35;
 
 public class DetHarmoniskeTallet {
     public static void main(String[] args) {

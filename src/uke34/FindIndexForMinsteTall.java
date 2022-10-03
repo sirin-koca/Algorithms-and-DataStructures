@@ -1,4 +1,4 @@
-package uke35;
+package uke34;
 
 public class FindIndexForMinsteTall {
 
