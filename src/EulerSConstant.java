@@ -5,12 +5,10 @@ Hvor stor må n være for at euler(n) skal returnere et tall som starter med 0,5
 // Euler's constant = 0.577
 // Euler's number = 2.718
 
-package uke35;
-
 public class EulerSConstant {
 
     public static void main(String[] args) {
-        System.out.println(euler(638));
+        System.out.println(String.format("%.2f", euler(638)));
     }
 
     public static double harmonisk(int n)
@@ -20,9 +18,7 @@ public class EulerSConstant {
         return sum;
     }
 
-    public static double euler(int n)
-    {
-        return harmonisk(n) - Math.log(n);
+    public static double euler(int n){ return harmonisk(n) - Math.log(n);
     }
     // n = 637 gir euler(n) = 0.5780003888865783
     // n = 638 gir euler(n) = 0.577999159233074

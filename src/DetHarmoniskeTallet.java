@@ -2,12 +2,10 @@
 Metoden skal ved hjelp av en løkke regne ut (og returnere)
 det n-te harmoniske tallet.*/
 
-package uke35;
-
 public class DetHarmoniskeTallet {
     public static void main(String[] args) {
 
-        System.out.println(harmonisk(5));
+        System.out.println(String.format("%.2f", harmonisk(5)));
     }
     public static double harmonisk(int n)
     {

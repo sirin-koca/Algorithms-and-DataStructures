@@ -1,4 +1,4 @@
-package uke38;
+package uke36;
 
 public class BinarySearch {
     public static void main(String[] args) {

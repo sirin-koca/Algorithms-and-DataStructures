@@ -1,29 +1,17 @@
 public class TernaryIf {
-
     public static void main(String[] args) {
 
-        int a = 0;
-        int b = 5;
-        int c = 10;
-        int d = 15;
+        for (int i = 0; i < 10; i++) {
+            int a = i;
+            int b = ternaryIfTest(a);
+            System.out.println(b);
+        }
 
-        System.out.println(myTernaryIfTest(a));
-        System.out.println(myTernaryIfTest(b));
-        System.out.println(myTernaryIfTest(c));
-        System.out.println(myTernaryIfTest(d));
+        // int a = 17;
+        // int b = (a < 5) ? 13 : 17;
     }
 
-    public static int myTernaryIfTest(int value) {
-
-        /*
-        if (value <= 10) {
-            return 1;
-        }
-        else {
-            return 0;
-        }
-        */
-
-        return (value <= 10) ? 1 : 0;
+    public static int ternaryIfTest(int value){
+        return (value < 5) ? 0 : 100;
     }
 }

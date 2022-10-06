@@ -1,4 +1,4 @@
-package uke39;
+package uke38;
 
 public class Pokemon implements Comparable<Pokemon>{
     String name;

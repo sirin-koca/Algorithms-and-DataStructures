@@ -8,6 +8,7 @@ package uke35;
  * int nextInt(int n) i Random som returnerer et tilfeldig heltall fra mengden {0, 1, 2, . . . , n - 1}.
  */
 
+import java.util.Arrays;
 import java.util.Random;
 
 public class RandomTabell1 {
@@ -17,9 +18,14 @@ public class RandomTabell1 {
         int[] a = new int[n];         // en tabell med plass til n tall
 
         for (int i = 0; i < n; i++)
-            a[i] = r.nextInt(n) + 1;    // tabellen fylles med tall
+            a[i] = r.nextInt(n) + 1;// tabellen fylles med tall
 
         return a;                     // tabellen returneres
+    }
+
+    public static void main(String[] args) {
+        int[] return_array = randPerm(10);
+        System.out.println("Random array1: " + Arrays.toString(return_array));
     }
 
 }

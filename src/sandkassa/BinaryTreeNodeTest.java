@@ -1,4 +1,4 @@
-package uke40;
+package sandkassa;
 
 import java.util.Arrays;
 public class BinaryTreeNodeTest {
