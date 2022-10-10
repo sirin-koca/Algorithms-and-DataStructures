@@ -16,6 +16,7 @@
 * Chapter 9: Balanced Binary Trees
 * Chapter 10: Applications of Trees
 * Chapter 11: Graphs
+
 ---
 
 ## Qualities of a Good Algorithm
