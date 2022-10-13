@@ -93,18 +93,18 @@ elements, 3 seconds to compute 1000 elements, and so on. An example is binary se
    * Insert: `O(1)`
    * Remove: `O(1)`
 
-### Tree
- * A *Tree* is an undirected, connected, acyclic graph
+### uke35_permutasjoner_binærtrær.Tree
+ * A *uke35_permutasjoner_binærtrær.Tree* is an undirected, connected, acyclic graph
 
-### Binary Tree
- * A *Binary Tree* is a tree data structure in which each node has at most two children, which are referred to as
+### Binary uke35_permutasjoner_binærtrær.Tree
+ * A *Binary uke35_permutasjoner_binærtrær.Tree* is a tree data structure in which each node has at most two children, which are referred to as
    the *left child* and *right child*
- * **Full Tree**: a tree in which every node has either 0 or 2 children
- * **Perfect Binary Tree**: a binary tree in which all interior nodes have two children and all leave have the same depth
- * **Complete Tree**: a binary tree in which every level *except possibly the last* is full and all nodes in the last
+ * **Full uke35_permutasjoner_binærtrær.Tree**: a tree in which every node has either 0 or 2 children
+ * **Perfect Binary uke35_permutasjoner_binærtrær.Tree**: a binary tree in which all interior nodes have two children and all leave have the same depth
+ * **Complete uke35_permutasjoner_binærtrær.Tree**: a binary tree in which every level *except possibly the last* is full and all nodes in the last
    level are as far left as possible
 
-### Binary Search Tree
+### Binary Search uke35_permutasjoner_binærtrær.Tree
  * A binary search tree, sometimes called BST, is a type of binary tree which maintains the property that the value in each
    node must be greater than or equal to any value stored in the left sub-tree, and less than or equal to any value stored
    in the right sub-tree
@@ -120,7 +120,7 @@ elements, 3 seconds to compute 1000 elements, and so on. An example is binary se
   in the tree defines the key with which it is associated. All the descendants of a node have a common prefix of the String associated 
   with that node, and the root is associated with the empty String.
 
-### Fenwick Tree
+### Fenwick uke35_permutasjoner_binærtrær.Tree
 * A Fenwick tree, sometimes called a binary indexed tree, is a tree in concept, but in practice is implemented as an implicit data
   structure using an array. Given an index in the array representing a vertex, the index of a vertex's parent or child is calculated
   through bitwise operations on the binary representation of its index. Each element of the array contains the pre-calculated sum of
@@ -130,7 +130,7 @@ elements, 3 seconds to compute 1000 elements, and so on. An example is binary se
   * Range Sum: `O(log(n))`
   * Update: `O(log(n))`
 
-### Segment Tree
+### Segment uke35_permutasjoner_binærtrær.Tree
 * A Segment tree, is a tree data structure for storing intervals, or segments. It allows querying which of the stored segments contain
   a given point
 * Time Complexity:
