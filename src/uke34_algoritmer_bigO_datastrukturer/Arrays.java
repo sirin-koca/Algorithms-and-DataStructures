@@ -14,15 +14,16 @@ public class Arrays {
         a[3]=4;
         a[4]=5;
 
-        System.out.print("ASC order: ");
-        //traversing array from left to right (DESC order)
+        //traversing array from left to right (ASC order)
+        System.out.print("ASC order: ");        
         for(int i=0; i < a.length; i++) //length is the property of array
             System.out.print(a[i] + ", ");
 
         System.out.println(); // empty line for break
 
-        System.out.print("DESC order: ");
+        
         //traversing array from right to left (DESC order)
+        System.out.print("DESC order: ");
         int n = a.length;
         for (int i = n-1 ; i >= 0 ; i--) {
             System.out.print(a[i] + ", ");
