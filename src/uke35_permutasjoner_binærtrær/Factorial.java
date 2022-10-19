@@ -1,4 +1,4 @@
-package oppgaver;
+package uke35_permutasjoner_binærtrær;
 
 public class Factorial {
     public static void main(String[] args) {

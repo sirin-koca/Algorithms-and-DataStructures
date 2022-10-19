@@ -1,10 +1,10 @@
-package uke34_algoritmer_bigO_datastrukturer;
+package uke37_generics_og_javateknisk;
 
 import java.util.Arrays;
 
-public class ShuffleAlgorithm {
+public class ShuffleAlgorithm_ObjectSuperClass_JavaLang {
     public static void main(String[] args) {
-        String[] a = {"Sirin", "Maya", "Dewi", "Murat", "Gül", "Elisabeth", "Hilfred", "Jack", "Nil", "Deniz"};
+        Object[] a = {"Sirin", "Maya", "Dewi", "Murat", "Gül", "Elisabeth", "Hilfred", "Jack", "Nil", "Deniz"};
         // Shuffle the array
         shuffle(a);
         // Print the result

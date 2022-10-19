@@ -1,4 +1,4 @@
-package uke35_permutasjoner_binærtrær;
+package uke34_algoritmer_bigO_datastrukturer;
 
 public class MaxIndex {
     public static void main(String[] args) {

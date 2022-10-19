@@ -1,4 +1,4 @@
-package uke38_rekursjon_flerdimensjonelle_tabeller;
+package uke37_generics_og_javateknisk;
 
 public class Pokemon implements Comparable<Pokemon>{
     String name;

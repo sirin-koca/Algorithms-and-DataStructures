@@ -1,7 +1,6 @@
 package uke34_algoritmer_bigO_datastrukturer;/*    Oppgave 3
 
     Det gjøres ved å endre sammenligningen if (a[i] > a[m]) til if (a[i] >= a[m]).
-
     En alternativ måte er å gå gjennom tabellen motsatt vei, dvs. starte lengst til høyre og så gå mot venstre. Det kan kodes slik:
 */
 

@@ -1,4 +1,4 @@
-package uke38_rekursjon_flerdimensjonelle_tabeller;
+package uke36_søking_og_sortering;
 
 class BinarySearchMain
 {

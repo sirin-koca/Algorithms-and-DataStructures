@@ -4,7 +4,7 @@ I oppgavene vil du bli bedt om å utvide testmetoden.
 
 package uke35_permutasjoner_binærtrær;
 
-import static uke35_permutasjoner_binærtrær.MaxIndex.maks;
+import static uke34_algoritmer_bigO_datastrukturer.MaxIndex.maks;
 
 public class TestingAnAlgorithm {
 

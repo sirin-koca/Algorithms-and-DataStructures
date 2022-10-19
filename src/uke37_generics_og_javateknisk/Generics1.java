@@ -1,4 +1,6 @@
-package uke38_rekursjon_flerdimensjonelle_tabeller;
+package uke37_generics_og_javateknisk;
+
+import uke37_generics_og_javateknisk.Pokemon;
 
 public class Generics1 {
 
