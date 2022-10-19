@@ -44,8 +44,6 @@ Algorithm analysis is an important part of computational complexity theory. It i
 
 **Algoritmeorden**: Anta at vi har en algoritme som løser en oppgave av «størrelse» n og at arbeidsmengden er gitt som en funksjon av n. Hvis g ( n ) er funksjonens dominerende ledd, sier vi at algoritmen er av orden g ( n ). Hvis arbeidsmengden til en algoritme er gitt ved ƒ( n ) = 2 n² + 3 n + log2 n − 1, så er algoritmen av orden n² eller av kvadratisk orden.
 
-**Gjennomsnittelig arbeidsmengde**: For å finne gjennomsnittlig arbeidsmengde er det nødvendig å gjøre noen forutsetninger. Vi antar for det første at alle verdiene i a er forskjellige, så at alle verdiene blir søkt etter med samme sannsynlighet og til slutt at a inneholder verdien det søkes etter. Ligger verdi først blir det 1 sammenligning, 2 sammenligninger hvis den ligger nest først, osv. Til slutt hvis den ligger bakerst blir det n sammenligninger. Tilsammen 1 + 2 + · · · + n = ½ n ( n + 1) sammenligninger. Gjennomsnittet får vi ved å dele på n. Med andre ord ½ (n + 1) sammenligninger i gjennomsnitt med hensyn på de gitte forutsetningene.
-
 ---
 ## Runtime Analysis
 
