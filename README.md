@@ -4,26 +4,37 @@
 
 ---
 
+<table>
+<tr>
+<td> 
+
 [Curriculum](https://www.cs.hioa.no/~ulfu/appolonius/kap1/kap1.html)
 
-* Chapter 1: Basic Concepts and Techniques
-* Chapter 2: Plane Geometry Algorithms
-* Chapter 3: Linear Data-structures
-* Chapter 4: Stacks and Queues
-* Chapter 5: Binary Trees
-* Chapter 6: Hashing and Hashing Techniques
-* Chapter 7: Data Compression
-* Chapter 9: Balanced Binary Trees
-* Chapter 10: Applications of Trees
-* Chapter 11: Graphs
+    * Chapter 1: Basic Concepts and Techniques
+    * Chapter 2: Plane Geometry Algorithms
+    * Chapter 3: Linear Data-structures
+    * Chapter 4: Stacks and Queues
+    * Chapter 5: Binary Trees
+    * Chapter 6: Hashing and Hashing Techniques
+    * Chapter 7: Data Compression
+    * Chapter 9: Balanced Binary Trees
+    * Chapter 10: Applications of Trees
+    * Chapter 11: Graphs
 
----
+</td>
+<td> 
 
-## Qualities of a Good Algorithm
+### Qualities of a Good Algorithm
+
 * Input and output should be defined precisely.
 * Each step in the algorithm should be clear and unambiguous.
-* Algorithms should be most effective among many different ways to solve a problem.
-* An algorithm shouldn't include computer code. Instead, the algorithm should be written in such a way that it can be used in different programming languages.
+* An algorithm shouldn't include computer code. Instead, the algorithm should be written in such a way that it can be applied in different programming languages.
+
+</td>
+</tr>
+</table>
+
+---
 
 ## Analyzing Algorithms
 
@@ -34,6 +45,26 @@ Algorithm analysis is an important part of computational complexity theory. It i
 **Algoritmeorden**: Anta at vi har en algoritme som løser en oppgave av «størrelse» n og at arbeidsmengden er gitt som en funksjon av n. Hvis g ( n ) er funksjonens dominerende ledd, sier vi at algoritmen er av orden g ( n ). Hvis arbeidsmengden til en algoritme er gitt ved ƒ( n ) = 2 n² + 3 n + log2 n − 1, så er algoritmen av orden n² eller av kvadratisk orden.
 
 **Gjennomsnittelig arbeidsmengde**: For å finne gjennomsnittlig arbeidsmengde er det nødvendig å gjøre noen forutsetninger. Vi antar for det første at alle verdiene i a er forskjellige, så at alle verdiene blir søkt etter med samme sannsynlighet og til slutt at a inneholder verdien det søkes etter. Ligger verdi først blir det 1 sammenligning, 2 sammenligninger hvis den ligger nest først, osv. Til slutt hvis den ligger bakerst blir det n sammenligninger. Tilsammen 1 + 2 + · · · + n = ½ n ( n + 1) sammenligninger. Gjennomsnittet får vi ved å dele på n. Med andre ord ½ (n + 1) sammenligninger i gjennomsnitt med hensyn på de gitte forutsetningene.
+
+---
+## Runtime Analysis
+
+#### Big O Notation
+* *Big O Notation* is used to describe the upper bound of a particular algorithm. Big O is used to describe worst case scenarios
+
+#### Little O Notation
+* *Little O Notation* is also used to describe an upper bound of a particular algorithm; however, Little O provides a bound
+  that is not asymptotically tight
+
+#### Big Ω Omega Notation
+* *Big Omega Notation* is used to provide an asymptotic lower bound on a particular algorithm
+
+#### Little ω Omega Notation
+* *Little Omega Notation* is used to provide a lower bound on a particular algorithm that is not asymptotically tight
+
+#### Theta Θ Notation
+* *Theta Notation* is used to provide a bound on a particular algorithm such that it can be "sandwiched" between
+  two constants (one for an upper limit and one for a lower limit) for sufficiently large values
 
 ---
 
@@ -295,25 +326,7 @@ or equal to those of the children and the lowest key is in the root node
                 y ^= x;
                 x ^= y;
              ```
-
-## Runtime Analysis
-
-#### Big O Notation
-* *Big O Notation* is used to describe the upper bound of a particular algorithm. Big O is used to describe worst case scenarios
-
-#### Little O Notation
-* *Little O Notation* is also used to describe an upper bound of a particular algorithm; however, Little O provides a bound
-  that is not asymptotically tight
-
-#### Big Ω Omega Notation
-* *Big Omega Notation* is used to provide an asymptotic lower bound on a particular algorithm
-
-#### Little ω Omega Notation
-* *Little Omega Notation* is used to provide a lower bound on a particular algorithm that is not asymptotically tight
-
-#### Theta Θ Notation
-* *Theta Notation* is used to provide a bound on a particular algorithm such that it can be "sandwiched" between
-  two constants (one for an upper limit and one for a lower limit) for sufficiently large values
+---
 
 ## Video Lectures
 * Data Structures
