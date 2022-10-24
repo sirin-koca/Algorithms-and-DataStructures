@@ -58,8 +58,7 @@ public class GenericSorting {
         }
     }
 
-    static
-    <T extends Comparable<? super T>>
+    static <T extends Comparable<? super T>>
     int maks(T[] values, int begin, int end) {
         T current_max = values[begin];
         int current_index = begin;
