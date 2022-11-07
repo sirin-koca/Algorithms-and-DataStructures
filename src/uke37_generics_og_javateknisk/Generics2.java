@@ -1,6 +1,6 @@
 package uke37_generics_og_javateknisk;
 
-            // Geeric methods
+            // Generic methods
 public class Generics2 {
     public static void main(String[] args) {
 
