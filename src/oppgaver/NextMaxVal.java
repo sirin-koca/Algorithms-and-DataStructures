@@ -1,4 +1,4 @@
-package sandkassa;
+package oppgaver;
 
 import static java.lang.Math.*;
 

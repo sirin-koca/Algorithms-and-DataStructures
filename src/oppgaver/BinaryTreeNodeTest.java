@@ -1,4 +1,4 @@
-package sandkassa;
+package oppgaver;
 
 import java.util.Arrays;
 public class BinaryTreeNodeTest {

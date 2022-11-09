@@ -1,4 +1,4 @@
-package sandkassa;
+package oppgaver;
 
 public class TernaryIf2 {
     public static void main(String[] args) {

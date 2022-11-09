@@ -1,4 +1,4 @@
-package sandkassa;
+package oppgaver;
 
 public class MaxIndex {
     public static int maxIndex(int[] a){

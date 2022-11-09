@@ -1,6 +1,6 @@
 ////////////////// class Heltall //////////////////////////////
 
-package eksempelklasser;
+package hjelpeklasser;
 
 public final class Heltall implements Comparable<Heltall>
 {

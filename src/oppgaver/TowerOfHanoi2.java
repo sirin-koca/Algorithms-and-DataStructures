@@ -1,4 +1,4 @@
-/* DATS2300 - AlgDat - kode eksempler fra pensum og forelesninger */
+package oppgaver;/* DATS2300 - AlgDat - kode eksempler fra pensum og forelesninger */
 
 public class TowerOfHanoi2 {
 

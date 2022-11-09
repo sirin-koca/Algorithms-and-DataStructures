@@ -1,4 +1,4 @@
-package sandkassa;
+package oppgaver;
 
 public class HelloAlgDat {
     public static void main(String[] args) {
