@@ -1,8 +1,25 @@
-package oppgaver;
-
+package oblig1;
+import java.util.Arrays;
 import java.util.NoSuchElementException;
 
 public class Oblig1 {
+    public static void main(String[] args) {
+        //
+        System.out.println("OBLIG1 Output:");
+        for (int i = 0; i < 40; i++) {
+            System.out.print("_");
+        }
+        System.out.println();
+        //
+
+        int[] a = {3, 5, 70, 2, 4, 6, -1, 9, 1, 7, 30, 20, 10, 8};  // usortert
+        int[] b = {1, 2, 3, 4, 5, 6, 7, 8, 9};   // sortert
+
+        System.out.println(maks(a));  // Oppgave1
+        System.out.println(antallUlikeSortert(b));
+        System.out.println(antallUlikeUsortert(a));
+
+    }
 
     ///// Oppgave 1 //////////////////////////////////////
 
@@ -37,7 +54,6 @@ public class Oblig1 {
         return antall;
     }
 
-
     ///// Oppgave 2 //////////////////////////////////////
     public static int antallUlikeSortert(int[] a) {
         int antall_ulike = 1;
@@ -50,7 +66,7 @@ public class Oblig1 {
         int i = 0;
         while (i < a.length - 1) {
             if (a[i] > a[i + 1]) {
-                throw new IllegalStateException("Det er ikke sortert stigende!!");
+                throw new IllegalStateException("Det er ikke sortert stigende!");
             }
             if (a[i] != a[i + 1]) {
                 antall_ulike++;
@@ -60,7 +76,6 @@ public class Oblig1 {
 
         return antall_ulike;
     }
-
 
     ///// Oppgave 3 //////////////////////////////////////
     public static int antallUlikeUsortert(int[] a) {
@@ -78,7 +93,6 @@ public class Oblig1 {
         return antallUlike;
 
     }
-
 
     ///// Oppgave 4 //////////////////////////////////////
 
@@ -101,20 +115,18 @@ public class Oblig1 {
                 j--;
             }
         }
-        kvikksortering(a, 0, i);
+        kvikksortering(a,0, i);
         kvikksortering(a, i, n);
     }
 
     //////////////KODEN FRA KOMPENDIET //////////////////
 
-    private static void kvikksortering0(int[] a, int i, int j)  // en privat metode
-    {
+    private static void kvikksortering0(int[] a, int i, int j) {
         if (i >= j) return;  // a[v:h] er tomt eller har maks ett element
         int k = sParter(a, i, j, (i + j) / 2);  // bruker midtverdien
         kvikksortering0(a, i, k - 1);     // sorterer intervallet a[v:k-1]
         kvikksortering0(a, k + 1, j);     // sorterer intervallet a[k+1:h]
     }
-
 
     private static int sParter(int[] a, int i, int j, int indeks) {
         bytt(a, indeks, j);           // skilleverdi a[indeks] flyttes bakerst
@@ -134,20 +146,16 @@ public class Oblig1 {
         }
     }
 
-    public static void kvikksortering(int[] a, int fra, int til) // a[fra:til>
-    {
+    public static void kvikksortering(int[] a, int fra, int til) { // a[fra, til)
         kvikksortering0(a, fra, til - 1);  // v = fra, h = til - 1
     }
 
-    public static void kvikksortering(int[] a)   // sorterer hele tabellen
-    {
+    public static void kvikksortering(int[] a) {
         kvikksortering0(a, 0, a.length - 1);
     }
-
-
     /////////////////TIL HER ////////////////////////////
 
-    ///// Oppgave 5 //////////////////////////////////////
+    ///// Oppgave 5 ////////////////////////////////////
     public static void rotasjon(char[] a) {
         if (a.length <= 1) {
             return;
@@ -158,13 +166,12 @@ public class Oblig1 {
             a[i] = a[i - 1];
         }
         a[0] = temp;
-
     }
 
     ///// Oppgave 6 //////////////////////////////////////
     public static void rotasjon(char[] a, int k) {
         if (a.length <= 1) {
-            return;
+            return; // gjør ingenting
         }
         k %= a.length;
         while (k < 0) {
