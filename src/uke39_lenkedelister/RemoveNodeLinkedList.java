@@ -16,8 +16,7 @@ class RemoveNodeLinkedList {
         }
     }
 
-    /* Given a key (myValue), this  method deletes the first
-    occurrence of myValue in linked list */
+    /* Given a key (myValue), this  method deletes the first occurrence of myValue in linked list */
     void deleteNode(int myValue) {
         // Store head node
         Node temp = head, prev = null;
@@ -50,8 +49,7 @@ class RemoveNodeLinkedList {
         head = new_node;
     }
 
-    /* This function prints contents of linked list starting
-    from the given node */
+    /* This function prints contents of linked list starting from the given node */
     public void printList() {
         Node tnode = head;
         while (tnode != null) {
