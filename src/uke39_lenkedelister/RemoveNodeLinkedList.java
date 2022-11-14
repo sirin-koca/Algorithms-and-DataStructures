@@ -43,7 +43,7 @@ class RemoveNodeLinkedList {
     }
 
     /* Inserts a new Node at front of the list. */
-    public void push(int new_data) {
+    public void insert(int new_data) {
         Node new_node = new Node(new_data);
         new_node.next = head;
         head = new_node;
@@ -64,10 +64,10 @@ class RemoveNodeLinkedList {
     public static void main(String[] args) {
         RemoveNodeLinkedList myList = new RemoveNodeLinkedList();
 
-        myList.push(7);
-        myList.push(1);
-        myList.push(3);
-        myList.push(2);
+        myList.insert(7);
+        myList.insert(1);
+        myList.insert(3);
+        myList.insert(2);
 
         System.out.println("\nCreated Linked list is:");
         myList.printList();

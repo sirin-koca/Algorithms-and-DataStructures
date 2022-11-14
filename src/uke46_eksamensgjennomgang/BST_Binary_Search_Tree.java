@@ -5,17 +5,21 @@ public class BST_Binary_Search_Tree {
     public static void main(String[] args) {
         BST tree = new BST();
 
-        int[] values = {9, 7, 1, 3, 5, 11, 13, 10, 8};
+        int[] myNums = {9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
 
         //Test utskrift av treet
-        for (int i = 0; i < values.length; ++i) {
-            tree.insert(values[i]);
-            tree.print();
-            System.out.println(" ");
+        for (int i = 0; i < myNums.length; i++) {
+            tree.insert(myNums[i]);
+            tree.printPre();
+        }
+        System.out.println();
+        for (int i = 0; i < myNums.length; i++) {
+            tree.insert(myNums[i]);
+            tree.printIn();
         }
 
         //Test at vi kan finne noder
-        System.out.println(tree.search(19));
+        System.out.println(tree.search(18));
         System.out.println(tree.search(8));
     }
 
@@ -37,21 +41,18 @@ public class BST_Binary_Search_Tree {
             this.left_child = null;
             this.right_child = null;
         }
-
         Node(int value, Node parent) {
             this.value = value;
             this.parent = parent;
             this.left_child = null;
             this.right_child = null;
         }
-
         Node(int value, Node parent, Node left_child, Node right_child) {
             this.value = value;
             this.parent = parent;
             this.left_child = left_child;
             this.right_child = right_child;
         }
-
         void printPreorderRecursive() {
             System.out.print(this.value + ", ");
             if (left_child != null) {
@@ -59,6 +60,15 @@ public class BST_Binary_Search_Tree {
             }
             if (right_child != null) {
                 right_child.printPreorderRecursive();
+            }
+        }
+        void printInorderRecursive(){
+            if (left_child != null) {
+                left_child.printInorderRecursive();
+            }
+            System.out.print(this.value + ", ");
+            if (right_child != null) {
+                right_child.printInorderRecursive();
             }
         }
     }
@@ -121,8 +131,13 @@ public class BST_Binary_Search_Tree {
             }
         }
 
-        public void print() {
+        public void printPre() {
             this.root.printPreorderRecursive();
+            System.out.println();
+        }
+        public void printIn(){
+            this.root.printInorderRecursive();
+            System.out.println();
         }
     }
 }

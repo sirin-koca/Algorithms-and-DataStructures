@@ -1,1 +1,0 @@
-package uke39_lenkedelister;
