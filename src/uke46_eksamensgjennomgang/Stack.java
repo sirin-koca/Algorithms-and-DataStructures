@@ -1,7 +1,6 @@
 package uke46_eksamensgjennomgang;
 
-public interface Stack<T>          // eng: Stack
-{
+public interface Stack<T> {          // eng: Stack
     public void leggInn(T verdi);    // eng: push
     public T kikk();                 // eng: peek
     public T taUt();                 // eng: pop
