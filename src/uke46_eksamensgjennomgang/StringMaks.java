@@ -1,4 +1,4 @@
-package uke37_generics_og_javateknisk;
+package uke46_eksamensgjennomgang;
 
 class StringString {
     public static int maks(String[] a) {

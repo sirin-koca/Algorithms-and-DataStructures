@@ -3,24 +3,35 @@ package uke46_eksamensgjennomgang;
 public class BST_Binary_Search_Tree {
 
     public static void main(String[] args) {
-        BST tree = new BST();
+        BST tree1 = new BST();
+        BST tree2 = new BST();
+        BST tree3 = new BST();
 
         int[] myNums = {9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
 
+
         //Test utskrift av treet
         for (int i = 0; i < myNums.length; i++) {
-            tree.insert(myNums[i]);
-            tree.printPre();
+            tree1.insert(myNums[i]);
+            tree1.printPre();
         }
-        System.out.println();
+        System.out.println("-------------------------------");
+
         for (int i = 0; i < myNums.length; i++) {
-            tree.insert(myNums[i]);
-            tree.printIn();
+            tree2.insert(myNums[i]);
+            tree2.printIn();
         }
+        System.out.println("-------------------------------");
+
+        for (int i = 0; i < myNums.length; i++) {
+            tree3.insert(myNums[i]);
+            tree3.printPost();
+        }
+        System.out.println("-------------------------------");
 
         //Test at vi kan finne noder
-        System.out.println(tree.search(18));
-        System.out.println(tree.search(8));
+        System.out.println(tree1.search());
+
     }
 
     // Node-klasse som har alt vi trenger for hver eneste node i det binære søketreet.
@@ -41,18 +52,21 @@ public class BST_Binary_Search_Tree {
             this.left_child = null;
             this.right_child = null;
         }
+
         Node(int value, Node parent) {
             this.value = value;
             this.parent = parent;
             this.left_child = null;
             this.right_child = null;
         }
+
         Node(int value, Node parent, Node left_child, Node right_child) {
             this.value = value;
             this.parent = parent;
             this.left_child = left_child;
             this.right_child = right_child;
         }
+
         void printPreorderRecursive() {
             System.out.print(this.value + ", ");
             if (left_child != null) {
@@ -62,7 +76,8 @@ public class BST_Binary_Search_Tree {
                 right_child.printPreorderRecursive();
             }
         }
-        void printInorderRecursive(){
+
+        void printInorderRecursive() {
             if (left_child != null) {
                 left_child.printInorderRecursive();
             }
@@ -70,6 +85,16 @@ public class BST_Binary_Search_Tree {
             if (right_child != null) {
                 right_child.printInorderRecursive();
             }
+        }
+
+        void printPostorderrecursive(){
+            if (left_child != null) {
+                left_child.printPostorderrecursive();
+            }
+            if (right_child != null) {
+                right_child.printPostorderrecursive();
+            }
+            System.out.print(this.value + ", ");
         }
     }
 
@@ -81,17 +106,15 @@ public class BST_Binary_Search_Tree {
         Node root;
 
         // Metode for å søke etter verdien i søketreet, returnerer null om verdien ikke finnes.
-        Node search(int value) {
+        Node search() {
             Node myNode = root;
             //Så lenge vi er utenfor treet, og ikke funnet verdien vår
-            while (myNode != null && myNode.value != value) {
-                if (value > myNode.value) {         // Hvis verdien er større enn myNode
+            while (myNode != null && myNode.value != 18) {
+                if (18 > myNode.value) {         // Hvis verdien er større enn myNode
                     myNode = myNode.right_child;    // Gå til høyre
-                }
-                else if (value < myNode.value) {    // Hvis verdien er mindre enn myNode
+                } else if (18 < myNode.value) {    // Hvis verdien er mindre enn myNode
                     myNode = myNode.left_child;     // gå til venstre
-                }
-                else {      // Hvis verdien er lik myNode => returner.
+                } else {      // Hvis verdien er lik myNode => returner.
                     break;
                 }
             }
@@ -102,7 +125,6 @@ public class BST_Binary_Search_Tree {
             //Treet vårt er tomt, vi lager første node!
             if (root == null) {
                 root = new Node(value);
-                return;
             }
             //Treet er ikke tomt => vi må legge inn verdien på riktig plass
             else {
@@ -135,8 +157,14 @@ public class BST_Binary_Search_Tree {
             this.root.printPreorderRecursive();
             System.out.println();
         }
-        public void printIn(){
+
+        public void printIn() {
             this.root.printInorderRecursive();
+            System.out.println();
+        }
+
+        public void printPost(){
+            this.root.printPostorderrecursive();
             System.out.println();
         }
     }

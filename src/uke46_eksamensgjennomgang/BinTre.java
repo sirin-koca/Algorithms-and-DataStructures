@@ -19,7 +19,9 @@ public class BinTre<T> {    // et generisk binærtre
 
     public BinTre() { rot = null; antall = 0; }          // konstruktør
 
-    public final void leggInn(int posisjon, T verdi) {}  // kode utelatt
+    public final void leggInn(int posisjon, T verdi) {
+
+    }  // kode utelatt
 
     public int antall() { return antall; }               // returnerer antallet
 
