@@ -1,6 +1,6 @@
 package uke46_eksamensgjennomgang;
 
-public class BST_Binary_Search_Tree {
+public class BinarySearchTree {
 
     public static void main(String[] args) {
         BST tree1 = new BST();
