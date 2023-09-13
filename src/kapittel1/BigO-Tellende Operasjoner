@@ -1,0 +1,31 @@
+Grunnleggende Operasjoner:
+- en tilordning - en variabel får en verdi
+- en tabelloperasjon - en tabellverdi aksesseres
+- en sammenligning - to verdier sammenlignes
+- en regneoperasjon - f.eks. en addisjon av to tall
+
+Dominerende operasjoner:
+Det er ikke vanlig å ta med alle operasjonene når en vurderer en algoritmes effektivitet.
+Det er ofte slik at én eller noen av operasjonene er viktigere, mer sentrale eller mer kostbare enn de andre.
+Slike operasjoner kalles dominerende. Men i andre algoritmer kan det være andre typer operasjoner som er dominerende.
+I numeriske algoritmer (dvs. algoritmer som inneholder tallberegninger) kan f.eks. det å multiplisere eller det å
+dividere være den dominerende operasjonen.
+
+En algoritmes orden:
+Resultatet av opptellingen (antall ganger den dominerende operasjonen utføres) avhenger av oppgavestørrelsen.
+I maks-metoden er den bestemt av antall verdier n (tabellengden). Den dominerende operasjonen (a[i] > a[m] )
+utføres n – 1 ganger. Det gir en lineær funksjon i n og vi sier at algoritmen er av lineær orden eller
+av orden n. Hvis funksjonen hadde vært kvadratisk i n, ville vi ha sagt at den var av kvadratisk orden eller
+av orden n². Lineær orden er generelt mer effektivt enn kvadratisk orden.
+
+Algoritmeeffektivitet - oppsummering:
+- En algoritme er en beskrivelse av de arbeidsoperasjonene som skal til for å løse en bestemt oppgave.
+- Den har vanligvis en dominerende operasjon - f.eks. det å sammenligne.
+- Vi kan «telle opp» antallet ganger den dominerende operasjonen utføres.
+- Antallet kan ofte uttrykkes som en funksjon av oppgavens størrelse n. Denne funksjonen definerer algoritmens orden.
+- Algoritmens orden er en målestokk for dens effektivitet. Jo «mindre» en algoritmes orden er, jo mer effektiv er den.
+* F.eks. er lineær orden generelt mer effektivt enn kvadratisk orden.
+
+Tabell 1.8.2 viser de funksjonene som vi oftest kommer i kontakt med i algoritmeanalyse.
+Maks-metoden (Programkode 1.1.2) har lineær orden (orden n). Den er effektiv. Det er umulig å finne den største i
+en usortert tabell med færre enn n - 1 sammenligninger. Men koden kan optimaliseres noe (Avsnitt 1.1.4).

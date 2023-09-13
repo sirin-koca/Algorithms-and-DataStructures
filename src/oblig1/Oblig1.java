@@ -6,7 +6,7 @@ public class Oblig1 {
     public static void main(String[] args) {
         //
         System.out.println("OBLIG1 Output:");
-        for (int i = 0; i < 40; i++) {
+        for (int i = 0; i < 15; i++) {
             System.out.print("_");
         }
         System.out.println();
@@ -14,6 +14,7 @@ public class Oblig1 {
 
         int[] a = {3, 5, 70, 2, 4, 6, -1, 9, 1, 7, 30, 20, 10, 8};  // usortert
         int[] b = {1, 2, 3, 4, 5, 6, 7, 8, 9};   // sortert
+        char[] c = {'A', 'B', 'C', 'D', 'E', 'F'}; // rotasjon
 
         System.out.println(maks(a));  // Oppgave1
         System.out.println(antallUlikeSortert(b));
@@ -29,7 +30,7 @@ public class Oblig1 {
         }
 
         int n = a.length;
-        int maksVerdi = a[n - 1];
+        //int maksVerdi = a[n - 1];
 
         for (int i = 1; i < n ; i++) {
             if (a[i - 1] > a[i]) {
@@ -43,6 +44,7 @@ public class Oblig1 {
         if (a.length < 1) {
             throw new NoSuchElementException("Tabellen a er tom!");
         }
+
         int antall = 0;
         int n = a.length;
         for (int i = 1; i < a.length; i++) {
@@ -57,12 +59,10 @@ public class Oblig1 {
     ///// Oppgave 2 //////////////////////////////////////
     public static int antallUlikeSortert(int[] a) {
         int antall_ulike = 1;
-        if (a.length == 0) {
-            return 0;
+        if (a.length < 1) {
+            throw new NoSuchElementException("Tabellen a er tom!");
         }
-        if (a.length == 1) {
-            return 1;
-        }
+
         int i = 0;
         while (i < a.length - 1) {
             if (a[i] > a[i + 1]) {
@@ -160,6 +160,7 @@ public class Oblig1 {
         if (a.length <= 1) {
             return;
         }
+
         int n = a.length;
         char temp = a[n - 1];
         for (int i = n - 1; i > 0; i--) {
@@ -180,7 +181,6 @@ public class Oblig1 {
         reversereArray(a, 0, a.length - 1);
         reversereArray(a, 0, k - 1);
         reversereArray(a, k, a.length - 1);
-
     }
 
     public static void reversereArray(char[] a, int start_index, int end_index) {
