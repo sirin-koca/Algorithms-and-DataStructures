@@ -1,5 +1,4 @@
 package examples;
-
 import java.util.Arrays;
 
 public class Kvikksortering {
@@ -12,10 +11,10 @@ public class Kvikksortering {
     }
 
     // Partitioning logic
-    private static int parter0(int[] a, int v, int h, int skilleverdi) {
+    private static int parter0(int[] a, int v, int h, int pivot) {
         while (true) {
-            while (v <= h && a[v] < skilleverdi) v++;
-            while (v <= h && a[h] >= skilleverdi) h--;
+            while (v <= h && a[v] < pivot) v++;
+            while (v <= h && a[h] >= pivot) h--;
 
             if (v < h) bytt(a, v++, h--);
             else return v;

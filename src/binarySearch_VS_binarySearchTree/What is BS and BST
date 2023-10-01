@@ -1,0 +1,15 @@
+
+# Binary Search (BS):
+
+Type: Algorithm
+Use: Used for searching a specific value in a SORTED list or array.
+Principle: Divide and Conquer
+Note: The list/array MUST BE SORTED for binary search to work.
+
+
+# Binary Search Tree (BST):
+
+Type: Data Structure
+Use: Used to maintain SORTED data and supports insertion, deletion, and search operations.
+Principle: Each node has a value. All the nodes in the left subtree have values less than the node,
+and all the nodes in the right subtree have values greater than the node.
