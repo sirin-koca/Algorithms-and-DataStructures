@@ -64,16 +64,32 @@ There are two parts to measuring efficiency —  **time complexity** and **space
 
 ---
 
-## Time Complexity
-- **O(log n) - Logarithmic time complexity** 
-O(log n) means time goes up linearly while the n goes up exponentially. So if it takes 1 second to compute 10 elements, it will take 2 seconds to compute 100
-elements, 3 seconds to compute 1000 elements, and so on. An example is a binary search.
+## Time Complexity - Big O Notation: From Best to Worst
 
-- **O(n) - Linear time complexity**
- O(n) describes an algorithm whose performance will grow linearly and in direct proportion to the size of the input data set. As the input increases, the time to run the algorithm will grow proportionally. Dobling av antall = dobling av tid.
+- **O(1)**: Constant time
+  - The running time of the algorithm is constant and doesn't depend on the size of the input.
+  
+- **O(log n)**: Logarithmic time
+  - Often seen in algorithms that decrease their input size significantly with each step (e.g., binary search).
+  
+- **O(n)**: Linear time
+  - The running time increases linearly with the size of the input (e.g., simple search algorithms, iterating over all elements in a list).
+  
+- **O(n log n)**: Linearithmic time
+  - Common in more efficient sorting algorithms like merge sort and quicksort.
+  
+- **O(n^2)**: Quadratic time
+  - Often seen in algorithms with nested loops over the data (e.g., bubble sort, insertion sort).
+  
+- **O(n^3)**: Cubic time
+  - Algorithms with three nested loops, less common than quadratic time but can be seen in some more naive algorithms.
+  
+- **O(2^n)**: Exponential time
+  - Often seen in algorithms that solve problems by considering many different combinations, such as the naive solutions to the traveling salesman problem or the powerset of a set.
+  
+- **O(n!)**: Factorial time
+  - Algorithms that have to consider all possible permutations of the input. This is even slower than exponential time and is often seen in problems like the brute-force solutions to the traveling salesman problem.
 
-- **O(n²) - Quadratic time complexity**
- O(n²) represents an algorithm whose performance is directly proportional to the square of the size of the input data set. This is common with algorithms that involve nested iterations over the data set. As the input increases, the time to run the algorithm grows at the rate of its square.
 
 ---
 
