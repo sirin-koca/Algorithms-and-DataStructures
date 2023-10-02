@@ -1,10 +1,10 @@
-package examples;
+package string_manipulation;
 
-import java.util.Stack;
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.Stack;
 
-public class PalindromeChecker {
+public class PalindromeChecker1 {
     public static boolean isPalindrome(String word) {
         word = word.toLowerCase();
 
