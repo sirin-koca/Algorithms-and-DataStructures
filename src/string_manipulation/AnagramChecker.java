@@ -22,5 +22,4 @@ public class AnagramChecker {
         // Compare sorted strings
         return Arrays.equals(charsA, charsB);
     }
-
 }
