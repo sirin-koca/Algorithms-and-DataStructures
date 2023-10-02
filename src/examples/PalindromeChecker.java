@@ -44,4 +44,6 @@ Pop a character from the stack.
 Dequeue a character from the queue.
 If the two characters aren't the same, then the word is not a palindrome.
 If you successfully compare all the characters without finding differences, the word is a palindrome.
+
+** Methods like toLowerCase(), toCharArray(), and many others are part of the Java Standard Library, specifically the String class.
  */
