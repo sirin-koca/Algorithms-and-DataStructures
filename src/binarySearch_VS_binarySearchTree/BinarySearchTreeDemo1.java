@@ -1,6 +1,7 @@
 package binarySearch_VS_binarySearchTree;
 
-// BAsic insertion
+// Basic implementation of Binary Search Tree datastructure:
+
 public class BinarySearchTreeDemo1 {
     class Node {
         int data;

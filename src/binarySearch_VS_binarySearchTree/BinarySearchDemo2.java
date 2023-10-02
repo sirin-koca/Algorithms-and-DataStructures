@@ -18,4 +18,9 @@ public class BinarySearchDemo2 {
             return search(arr, target, left, mid - 1);
         }
     }
+
+    public static void main(String[] args) {
+        int[] testArr = {1, 2, 3, 4, 5, 6};
+        System.out.println("Calling the BS-method: " + binarySearch(testArr, 3));;
+    }
 }

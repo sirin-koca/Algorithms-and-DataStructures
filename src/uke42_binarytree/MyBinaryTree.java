@@ -1,6 +1,5 @@
 package uke42_binarytree;
 
-
 import java.util.Arrays;
 
 public class MyBinaryTree {
@@ -35,5 +34,7 @@ public class MyBinaryTree {
         for (int i = 0; i < a.length; i++) {
             System.out.print("" + i + ", ");
         }
+
+        System.out.println();
     }
 }
