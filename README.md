@@ -44,52 +44,75 @@ Algorithm analysis is an important part of computational complexity theory. It i
 
 **Algoritmeorden**: Anta at vi har en algoritme som løser en oppgave av «størrelse» n og at arbeidsmengden er gitt som en funksjon av n. Hvis g ( n ) er funksjonens dominerende ledd, sier vi at algoritmen er av orden g ( n ). Hvis arbeidsmengden til en algoritme er gitt ved ƒ( n ) = 2 n² + 3 n + log2 n − 1, så er algoritmen av orden n² eller av kvadratisk orden.
 
+> _When analyzing algorithms, we often focus on the dominant term of the function, as it dictates the performance behaviour as n grows. In the provided example, 2 n² is the dominant term, so the algorithm is of quadratic order._
+
 ---
 ## Runtime Analysis
 
-#### Big O Notation
-* *Big O Notation* is used to describe the upper bound of a particular algorithm. Big O is used to describe worst case scenarios
-
-#### Little O Notation
-* *Little O Notation* is also used to describe an upper bound of a particular algorithm; however, Little O provides a bound
-  that is not asymptotically tight
-
-#### Big Ω Omega Notation
-* *Big Omega Notation* is used to provide an asymptotic lower bound on a particular algorithm
-
-#### Little ω Omega Notation
-* *Little Omega Notation* is used to provide a lower bound on a particular algorithm that is not asymptotically tight
-
-#### Theta Θ Notation
-* *Theta Notation* is used to provide a bound on a particular algorithm such that it can be "sandwiched" between
-  two constants (one for an upper limit and one for a lower limit) for sufficiently large values
+- **Big O Notation**: *Big O Notation* is used to describe the upper bound of a particular algorithm. Big O is used to describe worst-case scenarios.
+- **Little O Notation**: Little O Notation* is also used to describe an upper bound of a particular algorithm; however, Little O provides a bound that is not asymptotically tight.
+- **Big Ω Omega Notation**: Big Omega Notation* is used to provide an asymptotic lower bound on a particular algorithm.
+- **Little ω Omega Notation**: Little Omega Notation* is used to provide a lower bound on a particular algorithm that is not asymptotically tight.
+- **Theta Θ Notation**: Theta Notation* is used to provide a bound on a particular algorithm such that it can be "sandwiched" between two constants (one for an upper limit and one for a lower limit) for sufficiently large values.
 
 ---
 
-## Big O Notation 
-
-**How well does my algorithm scale?**
-
-Big O Notation is a way to measure an algorithm’s efficiency. It measures the time it takes to run your function as the input grows. Or in other words, it tells us how well does the function scale.
+## Big O Notation  - *How well does my algorithm scale?*
+Big O Notation is a way to measure an algorithm’s efficiency. It measures the time it takes to run your function as the input grows. In other words, it tells us how well the function scales.
 
 There are two parts to measuring efficiency —  **time complexity** and **space complexity**. Time complexity is a measure of how long the function takes to run in terms of its computational steps. Space complexity has to do with the amount of memory used by the function.
 
 ---
 
-## Time Complexity
-- **O(log n) - Logarithmic time complexity** 
-O(log n) means time goes up linearly while the n goes up exponentially. So if it takes 1 second to compute 10 elements, it will take 2 seconds to compute 100
-elements, 3 seconds to compute 1000 elements, and so on. An example is binary search.
+## Time Complexity - Big O Notation: From Best to Worst
 
-- **O(n) - Linear time complexity**
- O(n) describes an algorithm whose performance will grow linearly and in direct proportion to the size of the input data set. As the input increases, the time to run the algorithm will grow proportionally. Dobling av antall = dobling av tid.
+- **O(1)**: Constant time
+  - The running time of the algorithm is constant and doesn't depend on the size of the input.
+  
+- **O(log n)**: Logarithmic time
+  - Often seen in algorithms that decrease their input size significantly with each step (e.g., binary search).
+  
+- **O(n)**: Linear time
+  - The running time increases linearly with the size of the input (e.g., simple search algorithms, iterating over all elements in a list).
+  
+- **O(n log n)**: Linearithmic time
+  - Common in more efficient sorting algorithms like merge sort and quicksort.
+  
+- **O(n^2)**: Quadratic time
+  - Often seen in algorithms with nested loops over the data (e.g., bubble sort, insertion sort).
+  
+- **O(n^3)**: Cubic time
+  - Algorithms with three nested loops, less common than quadratic time but can be seen in some more naive algorithms.
+  
+- **O(2^n)**: Exponential time
+  - Often seen in algorithms that solve problems by considering many different combinations, such as the naive solutions to the traveling salesman problem or the powerset of a set.
+  
+- **O(n!)**: Factorial time
+  - Algorithms that have to consider all possible permutations of the input. This is even slower than exponential time and is often seen in problems like the brute-force solutions to the traveling salesman problem.
 
-- **O(n²) - Quadratic time complexity**
- O(n²) represents an algorithm whose performance is directly proportional to the square of the size of the input data set. This is common with algorithms that involve nested iterations over the data set. As the input increases, the time to run the algorithm grows at the rate of it’s square.
 
 ---
 
-## Data Structures
+## DATA STRUCTURES
+### Array
+An Array is a collection of elements identified by index or key values. The memory for an array is allocated contiguously, meaning that the elements are stored next to each other in memory.
+Arrays have a fixed size, meaning once they're allocated, their size can't change.
+* Time Complexity:
+-Access: O(1)
+-Search: 
+O(n) for a linear search, 
+O(logn) for binary search (if the array is sorted)
+-Insert: O(n) (because of the need to shift elements, worst case)
+-Remove: O(n) (because of the need to shift elements, worst case)
+
+### ArrayList (or Dynamic Array)
+An ArrayList or Dynamic Array is a data structure that allows elements to be stored in a contiguous block of memory, similar to an array, but its size can be changed during runtime. If the array becomes full and a new element needs to be added, a new, larger block of memory is allocated, and the elements are copied over.
+* Time Complexity (average case):
+-Access: O(1)
+-Search: O(n) for a linear search
+-Insert: O(1) (amortized, because occasionally the list will need to be resized)
+-Remove: O(n)
+
 ### Linked List
  * A *Linked List* is a linear collection of data elements, called nodes, each
    pointing to the next node by means of a pointer. It is a data structure
