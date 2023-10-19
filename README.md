@@ -167,29 +167,6 @@ An ArrayList or Dynamic Array is a data structure that allows elements to be sto
    * Insert: `O(log(n))`
    * Remove: `O(log(n))`
 
-### Trie
-* A trie, sometimes called a radix or prefix tree, is a kind of search tree that is used to store a dynamic set or associative
-  array where the keys are usually Strings. No node in the tree stores the key associated with that node; instead, its position 
-  in the tree defines the key with which it is associated. All the descendants of a node have a common prefix of the String associated 
-  with that node, and the root is associated with the empty String.
-
-### Fenwick Tree
-* A Fenwick tree, sometimes called a binary indexed tree, is a tree in concept, but in practice is implemented as an implicit data
-  structure using an array. Given an index in the array representing a vertex, the index of a vertex's parent or child is calculated
-  through bitwise operations on the binary representation of its index. Each element of the array contains the pre-calculated sum of
-  a range of values, and by combining that sum with additional ranges encountered during an upward traversal to the root, the prefix
-  sum is calculated
-* Time Complexity:
-  * Range Sum: `O(log(n))`
-  * Update: `O(log(n))`
-
-### Segment Tree
-* A Segment tree, is a tree data structure for storing intervals, or segments. It allows querying which of the stored segments contain
-  a given point
-* Time Complexity:
-  * Range Query: `O(log(n))`
-  * Update: `O(log(n))`
-
 ### Heap
 * A *Heap* is a specialized tree based structure data structure that satisfies the *heap* property: if A is a parent node of
 B, then the key (the value) of node A is ordered with respect to the key of node B with the same ordering applying across the entire heap.
@@ -200,7 +177,6 @@ or equal to those of the children and the lowest key is in the root node
   * Access Max / Min: `O(1)`
   * Insert: `O(log(n))`
   * Remove Max / Min: `O(log(n))
-
 
 ### Hashing
 * *Hashing* is used to map data of an arbitrary size to data of a fixed size. The values returned by a hash
@@ -297,15 +273,6 @@ or equal to those of the children and the lowest key is in the root node
   * Worst Case: `O(|V|^3)`
   * Average Case: `O(|V|^3)`
 
-#### Prim's Algorithm
-* *Prim's Algorithm* is a greedy algorithm that finds a minimum spanning tree for a weighted undirected graph. In other words, Prim's find a
-  subset of edges that forms a tree that includes every node in the graph
-* Time Complexity: `O(|V|^2)`
-
-#### Kruskal's Algorithm
-* *Kruskal's Algorithm* is also a greedy algorithm that finds a minimum spanning tree in a graph. However, in Kruskal's, the graph does not
-  have to be connected
-* Time Complexity: `O(|E|log|V|)`
 
 ## Greedy Algorithms
 * *Greedy Algorithms* are algorithms that make locally optimal choices at each step in the hope of eventually reaching the globally optimal solution
@@ -361,7 +328,6 @@ or equal to those of the children and the lowest key is in the root node
 Source: [Kevin Naughton](https://github.com/kdn251/interviews)
 
 ---
-
 
 <img src="https://github.com/sirin-koca/Java-Basics/blob/master/img/recursion.jpeg" width="800">
 <sub>Photo by Taras Chernus on Unsplash</sub>
