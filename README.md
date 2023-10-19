@@ -15,7 +15,7 @@
     * Chapter 3: Linear Data-structures
     * Chapter 4: Stacks and Queues
     * Chapter 5: Binary Trees
-    * Chapter 6: Hashing and Hashing Techniques
+    * Chapter 6: Hashing Techniques
     * Chapter 7: Data Compression
     * Chapter 9: Balanced Binary Trees
     * Chapter 10: Applications of Trees
