@@ -1,4 +1,4 @@
-package kapittel1;
+package mix_oppgaver;
 
 public class ForelesningAug25 {
 

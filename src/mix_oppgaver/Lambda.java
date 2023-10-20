@@ -1,4 +1,4 @@
-package kapittel1;
+package mix_oppgaver;
 
 // Anonyme funksjoner i Java kalles Lambda Expressions:
 // Syntax: (int a, int b) -> { return a + b; }

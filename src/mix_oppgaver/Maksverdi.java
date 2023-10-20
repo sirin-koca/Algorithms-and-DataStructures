@@ -1,4 +1,4 @@
-package kapittel1;
+package mix_oppgaver;
 
 public class Maksverdi {
     public static int maks(int[] a)   // versjon 2 av maks-metoden

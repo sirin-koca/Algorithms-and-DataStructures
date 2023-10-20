@@ -1,4 +1,4 @@
-package kapittel1;
+package mix_oppgaver;
 
 import java.util.ArrayList;
         import java.util.List;

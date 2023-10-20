@@ -1,4 +1,4 @@
-package kapittel1.oppgaver;
+package mix_oppgaver;
 
 /* Lag en metode public static int[] minmaks(int[] a). Den skal ved hjelp av en int-tabell med lengde 2 returnere
 posisjonene til minste og største verdi i tabellen a. Hvis du har funnet at m1 er posisjonen til den minste og m2
@@ -15,7 +15,6 @@ Step 5: Increment i once.
 */
 
 import java.util.Arrays;
-import java.util.NoSuchElementException;
 
 public class MinMaks {
     public static int[] minmaks(int[] a)
