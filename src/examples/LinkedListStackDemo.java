@@ -20,12 +20,10 @@ class Stack {
     // Push operation
     public void push(int value) {
         Node newNode = new Node(value);
-        if (top == null) {
-            top = newNode;
-        } else {
+        if (top != null) {
             newNode.next = top;
-            top = newNode;
         }
+        top = newNode;
     }
 
     // Pop operation

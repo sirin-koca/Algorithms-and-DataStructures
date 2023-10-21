@@ -18,6 +18,8 @@ public class ArrayOps {
         System.out.println("Max num: " + max);
 
         findMinMax(x);
+
+        findSecondLargest(x);
     }
 
     public static void printMyArr(int[] a) {
@@ -111,6 +113,32 @@ public class ArrayOps {
 
         System.out.println("Min: " + min);
         System.out.println("Max: " + max);
+    }
+
+
+    public static void findSecondLargest(int[] arr) {
+        if (arr.length < 2) {
+            System.out.println("Array needs at least two elements");
+            return;
+        }
+
+        int max = arr[0];
+        int secondMax = arr[0];
+
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > max) {
+                secondMax = max;
+                max = arr[i];
+            } else if (arr[i] > secondMax && arr[i] != max) {
+                secondMax = arr[i];
+            }
+        }
+
+        if (secondMax == max) {
+            System.out.println("No second largest element.");
+        } else {
+            System.out.println("The second largest number is: " + secondMax);
+        }
     }
 
 }
