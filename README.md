@@ -1,5 +1,7 @@
 # DATS2300-Algorithms-and-DataStructures 
 
+**_All examples and class-work located under the [/src](https://github.com/sirin-koca/Algorithms-and-DataStructures/tree/master/src) folder._** 
+
 <h4>"An algorithm is a finite sequence of precise instructions to solve a specific computational problem."</h4>
 
 ---
