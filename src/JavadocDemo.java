@@ -1,5 +1,3 @@
-package examples;
-
 /**
  * Demonstrates the usage of Javadoc annotations.
  * This class has methods to perform basic arithmetic operations.
