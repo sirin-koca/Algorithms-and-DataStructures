@@ -100,20 +100,20 @@ There are two parts to measuring efficiency —  **time complexity** and **space
 An Array is a collection of elements identified by index or key values. The memory for an array is allocated contiguously, meaning that the elements are stored next to each other in memory.
 Arrays have a fixed size, meaning once they're allocated, their size can't change.
 * Time Complexity:
--Access: O(1)
--Search: 
-O(n) for a linear search, 
-O(logn) for binary search (if the array is sorted)
--Insert: O(n) (because of the need to shift elements, worst case)
--Remove: O(n) (because of the need to shift elements, worst case)
+   * Access: O(1)
+   * Search:
+     O(n) for a linear search,
+     O(logn) for binary search (if the array is sorted)
+   * Insert: O(n) (because of the need to shift elements, worst case)
+   * Remove: O(n) (because of the need to shift elements, worst case)
 
 ### ArrayList (or Dynamic Array)
 An ArrayList or Dynamic Array is a data structure that allows elements to be stored in a contiguous block of memory, similar to an array, but its size can be changed during runtime. If the array becomes full and a new element needs to be added, a new, larger block of memory is allocated, and the elements are copied over.
 * Time Complexity (average case):
--Access: O(1)
--Search: O(n) for a linear search
--Insert: O(1) (amortized, because occasionally the list will need to be resized)
--Remove: O(n)
+   * Access: O(1)
+   * Search: O(n) for a linear search
+   * Insert: O(1) (amortized, because occasionally the list will need to be resized)
+   * Remove: O(n)
 
 ### Linked List
  * A *Linked List* is a linear collection of data elements, called nodes, each
