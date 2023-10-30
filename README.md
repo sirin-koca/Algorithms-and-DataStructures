@@ -2,39 +2,9 @@
 
 **_All examples and class-work located under the [/src](https://github.com/sirin-koca/Algorithms-and-DataStructures/tree/master/src) folder._** 
 
-<h4>"An algorithm is a finite sequence of precise instructions to solve a specific computational problem."</h4>
-
----
-
-<table>
-<tr>
-<td> 
+"An algorithm is a finite sequence of precise instructions to solve a specific computational problem."
 
 [Curriculum](https://www.cs.hioa.no/~ulfu/appolonius/kap1/kap1.html)
-
-    * Chapter 1: Basic Concepts and Techniques
-    * Chapter 2: Plane Geometry Algorithms
-    * Chapter 3: Linear Data-structures
-    * Chapter 4: Stacks and Queues
-    * Chapter 5: Binary Trees
-    * Chapter 6: Hashing Techniques
-    * Chapter 7: Data Compression
-    * Chapter 9: Balanced Binary Trees
-    * Chapter 10: Applications of Trees
-    * Chapter 11: Graphs
-
-</td>
-<td> 
-
-### Qualities of a Good Algorithm
-
-* Input and output should be defined precisely.
-* Each step in the algorithm should be clear and unambiguous.
-* An algorithm shouldn't include computer code. Instead, the algorithm should be written in such a way that it can be applied in different programming languages.
-
-</td>
-</tr>
-</table>
 
 ---
 
