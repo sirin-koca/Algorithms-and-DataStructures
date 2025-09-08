@@ -1,6 +1,6 @@
-# DATS2300-Algorithms-and-DataStructures 
+# Algorithms-and-DataStructures 
 
-**_All examples and class-work located under the [/src](https://github.com/sirin-koca/Algorithms-and-DataStructures/tree/master/src) folder._** 
+**_All examples are located under the [/src](https://github.com/sirin-koca/Algorithms-and-DataStructures/tree/master/src) folder._** 
 
 "An algorithm is a finite sequence of precise instructions to solve a specific computational problem."
 
@@ -8,9 +8,9 @@
 
 ---
 
-## Analyzing Algorithms
+## Algorithm analysis
 
-Algorithm analysis is an important part of computational complexity theory. It is the process of finding the computational complexity of algorithms; the amount of time, storage, or other resources needed to execute them. 
+This is an important part of computational complexity theory. It is the process of finding the computational complexity of algorithms; the amount of time, storage, or other resources needed to execute them. 
 
 **Arbeidsmengde**: I mange algoritmer er det mulig å «telle opp» antallet ganger den dominerende operasjonen utføres. Dette antallet utgjør algoritmens arbeidsmengde.
 
